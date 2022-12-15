@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        .titulo {
+            font-size: 30px;
+            color: #ffffff;
+            text-align: center;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 4px;
+        }
+    
+        body {
+            background-color: #96D4C7;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    
+        .area-login {
+            margin-left: 125px;
+            justify-content: center;
+            align-items: center;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .tela-login {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #4B9296;
+            border-radius: 10px;
+            width: 1000px;
+            height: auto;
+            padding: 35px;
+        }
+    
+        .input1 {
+            margin-top: 13.5px;
+            padding-left: 10px;
+            color: #CBD0F7;
+            border: none;
+            height: 40px;
+            outline: none;
+            border-radius: 8px;
+            width: 300px;
+            color: #8e8e91;
+            font-size: 14px;
+        }
+        .input2 {
+            margin-top: 13.5px;
+            padding-left: 10px;
+            color: #CBD0F7;
+            border: none;
+            height: 40px;
+            outline: none;
+            border-radius: 8px;
+            width: 650px;
+            color: #8e8e91;
+            font-size: 14px;
+        }
+        .input3 {
+            margin-top: 13.5px;
+            padding-left: 10px;
+            color: #CBD0F7;
+            border: none;
+            height: 40px;
+            outline: none;
+            border-radius: 8px;
+            width: 620px;
+            color: #8e8e91;
+            font-size: 14px;
+        }
+        .input4 {
+            margin-top: 13.5px;
+            padding-left: 10px;
+            color: #CBD0F7;
+            border: none;
+            height: 40px;
+            outline: none;
+            border-radius: 8px;
+            width: 650px;
+            color: #8e8e91;
+            font-size: 14px;
+        }
+        .coluna1{
+            text-align: left;
+            width: 350px;
+            font-size: 14px;
+        }
+    
+        .coluna2 {
+            margin-top: -115px;
+            margin-left: 500px;
+            text-align: left;
+            width: 350px;
+            font-size: 14px;
+        }
+    
+        .coluna3{
+            text-align: left;
+            width: 350px;
+            font-size: 14px;
+        }
+    
+        .coluna4 {
+            margin-top: -125px;
+            margin-left: 500px;
+            text-align: left;
+            width: 350px;
+            font-size: 14px;
+        }
+    
+        .botaoVoltar {
+    
+            background-color: #003d30;
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            width: 225px;
+            color: #CBD0F7;
+            border: none;
+            height: 40px;
+            outline: none;
+            border-radius: 8px;
+        }
+    
+    
+        .numpagina {
+            margin-left: 200px;
+        }
+    
+        .botaoAvancar {
+            margin-left: 200px;
+            background-color: #003d30;
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            width: 225px;
+            color: #CBD0F7;
+            border: none;
+            height: 40px;
+            outline: none;
+            border-radius: 8px;
+            margin-top: 0;
+        }
+    
+        p {
+            color: #cbd0f7;
+        }
+    
+        a {
+            color: #00129c;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+    </style>
+        
+
+
+<head>
+    <meta charset="UTF-8">
+   
+    <title> Cadastro</title>
+</head>
+
+<body>
+    <section class="area-login">
+        <div class="tela-login">
+            <div>
+                <h1 class="titulo" >Formulario Empresa</h1>
+            </div>
+                
+            <form method="POST">
+                <br><br>
+
+                <span><b>FORMA DE SUAS COMPRAS:</b> </span>
+                <br><br>
+                <table style="align-items:center;">
+                    <div class="coluna1">
+                        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op1"> Compras em Grupo(s), várias empresas
+                        <br>
+                        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op3"> Compras com base em Lote Econômico
+                        <br>
+                        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op4"> Otimização da gestão do estoque(s)
+                        <br>
+                        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op7"> Direta dos Fornecedores
+                            <br>
+
+                        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op9"> Compras em Rede... de Lojas
+
+                    </div>
+                    <div class="coluna2">
+                        <br>
+                        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op8"> Leilão/ões
+                            <br>
+                        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op10"> Compra Individualmente
+                            <br>
+                            <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op10"> Plataformas E-procurement
+                                <br>
+                                <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op11"> Seleção fornecedores adequados
+                                    <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op44">
+                                        <input class="input1" type="text" name="descreveropcao" , placeholder="Descrever opção" autofocus>
+                                        <br>
+
+                    </div>
+
+
+
+
+                    <br><br>
+
+                    <span><b>AS VENDAS FAZES POR QUAL MODALIDADE:</b> </span>
+                    <br><br>
+                    <table style="align-items:center;">
+                        <div class="coluna3">
+                            <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op1"> Físicas / Loja
+                            <br>
+                            <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op3"> Telefone
+                            <br>
+                            <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op4"> Parceiros
+                            <br>
+                            <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op7"> Espera a chamada
+                                <br>
+                                <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op8"> Vendedor externo
+                            <br>
+                            <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op9"> Visitas ao produtor/cliente
+
+    
+    
+                        </div>
+                        <div class="coluna4">
+                            <br>
+                            <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op11"> Redes sociais
+                            <br>
+                            <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op22"> facebook
+                            <br>
+                            <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op23"> Watzap
+                            <br>
+                            <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op24"> Instagran
+                            <br>
+                            <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op44">
+                                <input class="input1" type="text" name="descreveropcao" , placeholder="Descrever opção" autofocus>
+                                <br><br>
+                        </div>
+                        <span><b>Região/Municípios que Atua:  </b></span> 
+                        <input class="input2" type="text" name="municipios", placeholder="Descrever Municípios:" autofocus>
+                        <br>
+                        <span><b>Mercado/Região Pretende atuar?  </b></span> 
+                        <input class="input3" type="text" name="regia", placeholder="Descrever Região" autofocus>
+                        <br>
+                        <span><b>E Exportação, faz e p/ onde?:  </b></span> 
+                        <input class="input4" type="text" name="exortacao", placeholder="Descrever Onde" autofocus>
+
+        </div>
+
+        <div>
+
+
+
+
+
+
+
+        </div>
+        <br><br>
+
+        <input class="botaoVoltar" type="submit" value="Voltar">
+        <span class="numpagina">8/8</span>
+        <input class="botaoAvancar" type="submit" value="Avançar">
+        </form>
+
+    </div>
+        </section>
+    
+</body>
+</html>

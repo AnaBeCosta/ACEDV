@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+
+        .titulo{
+                font-size: 30px;
+                color: #ffffff;
+                text-align: center;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 4px;
+        }
+        
+        body{
+            background-color: #96D4C7;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .area-login{
+            margin-left: 125px;
+            justify-content: center;
+            align-items: center;
+            justify-content: center;
+            align-items:  center;
+        }
+        
+        .tela-login{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #4B9296;
+            border-radius: 10px;
+            width: 1000px;
+            height: 525px;
+            padding: 35px;
+        }
+        
+        .input1{
+            margin-top: 13.5px;
+            padding-left: 10px;
+            color: #CBD0F7;
+            border: none;
+            height: 40px;
+            outline: none;
+            border-radius: 8px;
+            width:300px;
+            color: #8e8e91;
+            font-size: 14px;
+        }
+        .input2{
+            margin-top: 13.5px;
+            padding-left: 10px;
+            color: #CBD0F7;
+            border: none;
+            height: 40px;
+            outline: none;
+            border-radius: 8px;
+            width:235px;
+            color: #8e8e91;
+            font-size: 14px;
+        }
+        
+        .botaoVoltar{
+            
+            background-color: #003d30;
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            width:225px;  
+            color: #CBD0F7;
+            border: none;
+            height: 40px;
+            outline: none;
+            border-radius: 8px;
+        }
+        
+        
+        .numpagina{
+            margin-left: 270px;
+        }
+        
+        .botaoAvancar{
+            margin-left: 245px;
+            background-color: #003d30;
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            width:225px;
+            color: #CBD0F7;
+            border: none;
+            height: 40px;
+            outline: none;
+            border-radius: 8px;
+            margin-top: 0;
+        }
+        p{
+            color: #cbd0f7;
+        }
+        a{
+            color: #00129c;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        </style>
+        
+
+
+<head>
+    <meta charset="UTF-8">
+   
+    <title> Cadastro</title>
+</head>
+
+<body>
+    <section class="area-login">
+        <div class="tela-login">
+            <div>
+                <h1 class="titulo" >Formulario Empresa</h1>
+            </div>
+                
+            <form method="POST">
+                <br>
+                    <span><b>TRIBUTÁRIO DA SUA EMPRESA:</b></span>
+                    <br>
+                    <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> MEI
+                    <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Simples Nacional
+                    <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op3"> Lucro Presumido
+                    <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op4"> Lucro Real
+                    <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op5"> Entidade Isenta/Imune
+                    <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op6"> 
+                    <input class="input1" type="text" name="descreveropcao", placeholder="Descrever opção" autofocus>
+                    <br><br><br>
+
+
+                        <span><b>TIPO DA SUA INDÚSTRIA, EM QUE SE ENQUADRA:</b></span>
+                        <br><br>
+                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Ind. de Bens de Base, Pesada: siderurgia(ca), metalúrgica, fundição, petroquímica, cimento, asfalto, pontes,... construção civil
+                        <br><br>
+                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Ind. de Bens Intermediários: mecânica, máquinas industriais, tratores, motores automotivos, autopeças, rodas, pneus, chapeação, etc
+                        <br><br>
+                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op3"> Ind. Extrativa: vegetal, animal ou mineral, como: madeireira, mineral, extração de petróleo, carvão mineral, areia, pedra e brita, água...
+                        <br><br>
+                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op4"> Ind. de Bens de Consumo Duráveis: veículos, móveis, eletrodomésticos, eletroeletrônicos, maquina de lavar, televisão, bens de capital,...
+                        <br><br>
+                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op5"> Ind. Bens de Consumo Não Duráveis: alimentícia, têxtil, vestuário, remédios, cosméticos, cigarros, farinhas, carnes, chocolate...
+                        <br><br>
+                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op6"> Ind. da Automação Industrial
+                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op7"> Reciclagem de papel, plásticos e afins
+                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op8"> Prestação de Serviços
+                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op9"> 
+                        <input class="input2" type="text" name="descreveropcao", placeholder="Descrever opção" autofocus>
+                        <br><br>
+
+                   <input class="botaoVoltar" type="submit" value="Voltar">
+                   <span class="numpagina">4/8</span>
+                   <input class="botaoAvancar" type="submit" value="Avançar">
+        </form>
+        
+    </div>
+        </section>
+    
+</body>
+</html>

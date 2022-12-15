@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+.titulo{
+        font-size: 30px;
+        color: #ffffff;
+        text-align: center;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 4px;
+}
+
+body{
+    background-color: #96D4C7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.area-login{
+    margin-left: 125px;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items:  center;
+}
+
+.tela-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4B9296;
+    border-radius: 10px;
+    width: 1000px;
+    height: 525px;
+    padding: 35px;
+}
+
+
+.input1{
+    margin-top: 13.5px;
+    padding-left: 10px;
+    color: #CBD0F7;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 8px;
+    width:60px;
+    color: #8e8e91;
+    font-size: 14px;
+}
+.input2{
+    margin-top: 13.5px;
+    padding-left: 10px;
+    color: #CBD0F7;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 8px;
+    width:60px;
+    color: #8e8e91;
+    font-size: 14px;
+}
+.input3{
+    margin-top: 13.5px;
+    padding-left: 10px;
+    color: #CBD0F7;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 8px;
+    width:60px;
+    color: #8e8e91;
+    font-size: 14px;
+}
+.input4{
+    margin-top: 13.5px;
+    padding-left: 10px;
+    color: #CBD0F7;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 8px;
+    width:310px;
+    color: #8e8e91;
+    font-size: 14px;
+}
+.input5{
+    margin-top: 13.5px;
+    padding-left: 10px;
+    color: #CBD0F7;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 8px;
+    width:100px;
+    color: #8e8e91;
+    font-size: 14px;
+}
+.input6{
+    margin-top: 13.5px;
+    padding-left: 10px;
+    color: #CBD0F7;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 8px;
+    width:100px;
+    color: #8e8e91;
+    font-size: 14px;
+}
+.input7{
+    margin-top: 13.5px;
+    padding-left: 10px;
+    color: #CBD0F7;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 8px;
+    width:100px;
+    color: #8e8e91;
+    font-size: 14px;
+}
+.input8{
+    margin-top: 13.5px;
+    padding-left: 10px;
+    color: #CBD0F7;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 8px;
+    width:310px;
+    color: #8e8e91;
+    font-size: 14px;
+}
+.input9{
+    margin-top: 13.5px;
+    padding-left: 10px;
+    color: #CBD0F7;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 8px;
+    width:276px;
+    color: #8e8e91;
+    font-size: 14px;
+}
+.input10{
+    margin-top: 13.5px;
+    padding-left: 10px;
+    color: #CBD0F7;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 8px;
+    width:276px;
+    color: #8e8e91;
+    font-size: 14px;
+}
+.input11{
+    margin-top: 13.5px;
+    padding-left: 10px;
+    color: #CBD0F7;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 8px;
+    width:985px;
+    color: #8e8e91;
+    font-size: 14px;
+}
+.botaoVoltar{
+    
+    background-color: #003d30;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    width:225px;  
+    color: #CBD0F7;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 8px;
+}
+
+
+.numpagina{
+    margin-left: 270px;
+}
+
+.botaoAvancar{
+    margin-left: 245px;
+    background-color: #003d30;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    width:225px;
+    color: #CBD0F7;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 8px;
+    margin-top: 0;
+}
+p{
+    color: #cbd0f7;
+}
+a{
+    color: #00129c;
+    text-decoration: none;
+    margin-left: 10px;
+}
+</style>
+
+
+<head>
+    <meta charset="UTF-8">
+   
+    <title> Cadastro</title>
+</head>
+
+<body>
+    <section class="area-login">
+        <div class="tela-login">
+            <div>
+                <h1 class="titulo" >Formulario Empresa</h1>
+            </div>
+                
+            <form method="POST">
+                <br>
+                <span>PROPRIETÁRIOS(AS) DA EMPRESA/GRUPO, SÃO DO GÊNERO:</span>
+                <span>Masculino:</span>
+                <input class="input1" type="text" name="masculino", autofocus>
+                <span>Feminino:</span>
+                <input class="input2" type="text" name="feminino", autofocus>
+                <span>TOTAL:</span>
+                <input class="input3" type="text" name="total", autofocus>
+                <span>DONOS</span>   
+                   
+                    <br>
+                    <input class="input4" type="text" name="nomesdosproprietarios1", placeholder="Nomes dos proprietarios(as)" autofocus>
+                    <input class="input5" type="text" name="genero1", placeholder="Gênero" autofocus>
+                    <input class="input6" type="text" name="idade1", placeholder="Idade" autofocus>
+                    <input class="input7" type="text" name="estadocivil1", placeholder="Estado Civil" autofocus>
+                    <input class="input8" type="text" name="escolaridade1", placeholder="Escolaridade / Formação escolar (maior)" autofocus>
+                    <br>
+                    <input class="input4" type="text" name="nomesdosproprietarios2", placeholder="Nomes dos proprietarios(as)" autofocus>
+                    <input class="input5" type="text" name="genero2", placeholder="Gênero" autofocus>
+                    <input class="input6" type="text" name="idade2", placeholder="Idade" autofocus>
+                    <input class="input7" type="text" name="estadocivil2", placeholder="Estado Civil" autofocus>
+                    <input class="input8" type="text" name="escolaridade2", placeholder="Escolaridade / Formação escolar (maior)" autofocus>
+                    <br>
+                    <input class="input4" type="text" name="nomesdosproprietarios3", placeholder="Nomes dos proprietarios(as)" autofocus>
+                    <input class="input5" type="text" name="genero3", placeholder="Gênero" autofocus>
+                    <input class="input6" type="text" name="idade3", placeholder="Idade" autofocus>
+                    <input class="input7" type="text" name="estadocivil3", placeholder="Estado Civil" autofocus>
+                    <input class="input8" type="text" name="escolaridade3", placeholder="Escolaridade / Formação escolar (maior)" autofocus>
+                    <br>
+                    <input class="input4" type="text" name="nomesdosproprietarios4", placeholder="Nomes dos proprietarios(as)" autofocus>
+                    <input class="input5" type="text" name="genero4", placeholder="Gênero" autofocus>
+                    <input class="input6" type="text" name="idade4", placeholder="Idade" autofocus>
+                    <input class="input7" type="text" name="estadocivil4", placeholder="Estado Civil" autofocus>
+                    <input class="input8" type="text" name="escolaridade4", placeholder="Escolaridade / Formação escolar (maior)" autofocus>
+                    <br>
+                    <input class="input4" type="text" name="nomesdosproprietarios5", placeholder="Nomes dos proprietarios(as)" autofocus>
+                    <input class="input5" type="text" name="genero5", placeholder="Gênero" autofocus>
+                    <input class="input6" type="text" name="idade5", placeholder="Idade" autofocus>
+                    <input class="input7" type="text" name="estadocivil5", placeholder="Estado Civil" autofocus>
+                    <input class="input8" type="text" name="escolaridade5", placeholder="Escolaridade / Formação escolar (maior)" autofocus>
+                    <br>
+                    <input class="input4" type="text" name="nomesdosproprietarios6", placeholder="Nomes dos proprietarios(as)" autofocus>
+                    <input class="input5" type="text" name="genero6", placeholder="Gênero" autofocus>
+                    <input class="input6" type="text" name="idade6", placeholder="Idade" autofocus>
+                    <input class="input7" type="text" name="estadocivil6", placeholder="Estado Civil" autofocus>
+                    <input class="input8" type="text" name="escolaridade6", placeholder="Escolaridade / Formação escolar (maior)" autofocus>
+                    <br>
+                    <br>
+
+                   <input class="botaoVoltar" type="submit" value="Voltar">
+                   <span class="numpagina">2/8</span>
+                   <input class="botaoAvancar" type="submit" value="Avançar">
+        </form>
+        
+    </div>
+        </section>
+    
+</body>
+</html>
